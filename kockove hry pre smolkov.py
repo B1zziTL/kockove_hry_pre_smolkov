@@ -39,6 +39,7 @@ def klik_blik(suradnice): #funkcia na zistenie suradnic a vykreslenie
             momentalne_suradnice.append(ii)
             break
 
+    #podmienka na spracovanie az po 2 klikoch
     if pocet_klikov == 2:
         #podmienky na spravne oznacenie
         if momentalne_suradnice[0] == momentalne_suradnice[2] or momentalne_suradnice[1] == momentalne_suradnice[3]:
